@@ -10,4 +10,6 @@ https://user-images.githubusercontent.com/43136060/187495536-dc2bee9d-cdf2-4798-
 </a>
 
 ## Technologies used
-Java - XML - Native Android - Firebase
+Java - XML - Native Android - Firebase    
+
+For UI Design: Adobe XD - Adobe Photoshop
