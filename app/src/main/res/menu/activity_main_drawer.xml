@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/contactus_ico"
+                android:onClick="Feedback"
+                android:title="contact us" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/info"
+                android:onClick="About"
+                android:title="about" />
+        </menu>
+    </item>
+
+    <item android:checkableBehavior="single"
+        android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_home"
+                android:icon="@drawable/signout_ico"
+                android:onClick="SignOut"
+                android:title="Logout" />
+            <item
+                android:id="@+id/nav_gallery"
+                android:icon="@drawable/close"
+                android:onClick="Exit"
+                android:title="Exit" />
+        </menu>
+    </item>
+
+</menu>

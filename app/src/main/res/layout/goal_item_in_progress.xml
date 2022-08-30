@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/shape2"
+    android:gravity="center_vertical"
+    android:weightSum="10"
+    android:id="@+id/goal_layout">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="8"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:clickable="true"
+        android:id="@+id/in_progress_item_layout">
+        <TextView
+            android:id="@+id/in_progress_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="This is in progress"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:layout_margin="20dp"/>
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        android:clickable="true">
+
+        <ImageView
+            android:id="@+id/in_progress_btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape4"/>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/check_sign"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/check_sign"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "776904263901",
+    "firebase_url": "https://relief-adfea.firebaseio.com",
+    "project_id": "relief-adfea",
+    "storage_bucket": "relief-adfea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:776904263901:android:fec3f02ce5edea185d3334",
+        "android_client_info": {
+          "package_name": "com.example.chart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "776904263901-d66igi8mltepqkv6977go064dka7fobt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chart",
+            "certificate_hash": "1fcd96c642a59a67d44cf41efe8ca550b30f2afe"
+          }
+        },
+        {
+          "client_id": "776904263901-q5sjs9k111ht7qgp390oflq4gaqg33nn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJfOa8JM5Slveh8gaBegiKO5-YSFR1F0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "776904263901-q5sjs9k111ht7qgp390oflq4gaqg33nn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

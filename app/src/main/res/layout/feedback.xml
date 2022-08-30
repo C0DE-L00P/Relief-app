@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/feedback"
+    android:gravity="bottom|center_horizontal"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/feedback_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="8dp"
+        android:hint="Tell us about your experience"
+        android:gravity="center"
+        android:maxLines="6"
+        android:minLines="6" />
+
+    <TextView
+        android:id="@+id/send_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="7dp"
+        android:layout_marginBottom="100dp"
+        android:drawableEnd="@drawable/send"
+        android:text="Send"
+        android:textColor="#004fab"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

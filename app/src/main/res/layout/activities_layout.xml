@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:id="@+id/parent">
+
+    <TextView
+        android:id="@+id/ask_age_text"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Please, Mention your age"
+        android:textSize="24sp"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:background="@drawable/shape"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_margin="20dp"/>
+    <LinearLayout
+        android:id="@+id/choices_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+    <Button
+        android:layout_margin="3dp"
+        android:id="@+id/age_range1"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:text="12 - 18"
+        android:background="@drawable/shape3"/>
+    <Button
+        android:layout_margin="3dp"
+        android:id="@+id/age_range2"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:text="19 - 30"
+        android:background="@drawable/shape3"/>
+    <Button
+        android:layout_margin="3dp"
+        android:id="@+id/age_range3"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="60dp"
+        android:text="31 - 50"
+        android:background="@drawable/shape3"/>
+
+    </LinearLayout>
+
+    <com.diegodobelo.expandingview.ExpandingList
+        android:id="@+id/expanding_list_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+</LinearLayout>
